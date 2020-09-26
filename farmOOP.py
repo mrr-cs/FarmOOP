@@ -42,7 +42,7 @@ def manage_crop(crop):
 def main():
     new_crop = crop.Crop(2,7,3)
     manage_crop(new_crop)
-    print(new_crop.report('days growing'))
+    print(new_crop.report())
 
 
 main()
